@@ -1,0 +1,54 @@
+.cat-red{
+  color: red;
+}
+
+#catBlue{
+  color: blue;
+}
+
+input::placeholder{
+  color: green;
+}
+
+div[data-text="target"]{
+  color: pink;
+}
+
+li:first-child{
+  color: red;
+}
+
+li:nth-child(5){
+  color: green;
+}
+
+li:last-child{
+  color: blue;
+}
+
+
+/* 模範回答 */
+/* .cat-red {
+  color: red;
+}
+#catBlue {
+  color: blue;
+}
+input[name="green"]::placeholder {
+  color: green;
+}
+[data-text="target"] {
+  color: pink;
+}
+ul {
+  list-style: none;
+}
+ul li:first-child {
+  color: red;
+}
+ul li:last-child {
+  color: blue;
+}
+ul li:nth-child(5) {
+  color: green;
+} */
