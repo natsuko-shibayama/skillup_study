@@ -1,0 +1,37 @@
+/* .before-cat::before {
+  content: '▼';
+}
+
+h3{
+  display: flex;
+  align-items: center;
+}
+
+
+h3::before,h3::after {
+  content: '';
+  flex-grow: 1;
+  height: 3px;
+  background: black;
+} */
+
+/* 模範回答 */
+.before-cat::before {
+    content: "▼";
+    padding-right: 4px;
+}
+h3::before,
+h3::after {
+    display: inline-block;
+    content: "";
+    vertical-align: 5px;
+    width: 40px;
+    height: 2px;
+    background-color: #000;
+}
+h3::before {
+    margin-right: 8px;
+}
+h3::after {
+    margin-left: 8px;
+}
